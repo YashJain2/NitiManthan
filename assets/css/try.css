@@ -1,0 +1,60 @@
+.themed-grid-col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    object-position: center;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+  }
+
+.themed-container {
+    padding: 15px;
+    margin-bottom: 30px;
+    object-position: center;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+  }
+
+/* Nav-Bar css  */
+.themed-grids {
+    background-color: #fb6340;
+  }
+
+/* left-Side first-box */
+.themed-one {
+  background-color: rgba(196, 170, 235, 0.15);
+}
+
+/* Left-side second-Box */
+.themed {
+  background-color: rgba(196, 170, 235, 0.15);
+}
+
+@media screen and (max-width: 576px){
+  div.aside{
+    display:none;
+  }
+}
+
+.mobile{
+  display:none;
+}
+
+@media screen and (max-width: 576px){
+  .mobile{
+    position: relative;
+    display:grid;
+    background-color: #E6E2EB;
+    border:none;
+    padding-bottom:0px;
+  }
+}
+
+.btn-filter{
+  background-color: rgba(196, 170, 235, 0.65);
+  color:#ffffff;
+  border: 1px solid rgba(196, 170, 235, 0.65);
+}
+.btn:hover, .btn:focus,.btn:active{
+  background-color: rgba(196, 170, 235, 0.95);
+  border: 1px solid rgba(196, 170, 235, 0.95);
+}
